@@ -1,0 +1,135 @@
+<html>
+<head>
+    <title>Teachers</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+<nav><div class="intro1">
+    <img src="Student Self Help Desk_Logo.png" height="50px" width="50px">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Welcome to MANIT Student Self Help Desk&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    <div id="clock">8:10:45</div>
+    <script>
+        setInterval(showTime, 1000);
+        function showTime() {
+            let time = new Date();
+            let hour = time.getHours();
+            let min = time.getMinutes();
+            let sec = time.getSeconds();
+            am_pm = "AM";
+  
+            if (hour > 12) {
+                hour -= 12;
+                am_pm = "PM";
+            }
+            if (hour == 0) {
+                hr = 12;
+                am_pm = "AM";
+            }
+  
+            hour = hour < 10 ? "0" + hour : hour;
+            min = min < 10 ? "0" + min : min;
+            sec = sec < 10 ? "0" + sec : sec;
+  
+            let currentTime = hour + ":" 
+                + min + ":" + sec + am_pm;
+  
+            document.getElementById("clock")
+                .innerHTML = currentTime;
+        }
+  
+        showTime();
+    </script>
+    </div></nav>
+<nav><div class="intro2">
+
+        <a href="HomePage.html" target="_parent" >Home</a>
+        <a href="Books.html" target="_parent">Books</a>
+        <a href="Notes.html" target="_parent">Notes</a>
+        <a href="Teachers.html" target="_parent">Teachers</a>
+        <a href="TypingTest.html" target="_parent">TYPO</a>
+        <a href="Practice.html" target="_parent">Practice</a>
+        <a href="Quiz.html" target="_parent">Quiz</a>
+        <a href="Documents.html" target="_parent">Docs</a>
+    </div>
+    </nav>
+<div class="back">
+<h1 align="center"><u>Let's know our Professors</u></h1>
+<div class="books">
+<div class="teach1"><img src="Teachers/dr.madhvi_shakya.jpg" height="100px" width="100px">
+<pre><b>   
+Dr. Madhvi Shakya
+Designation: Professor & HOD
+Qualification: M.Sc., Ph.D.
+Research Interest: Computational Biology, Bioinformatics, Optimization Techniques
+Email: madhvishakya@yahoo.co.in, shakyam@manit.ac.in
+Phone: 0755-4051554
+</b></pre>
+<img src="Teachers/Dr.namitaSrivastava.jpg" height="100px" width="100px">
+<pre><b>   
+Dr. Namita Srivastava
+Designation: Professor & Head of the Department
+Qualification: M.Sc., Ph.D.
+Research Area: Financial Mathematics
+Email:sri.namita@gmail.com
+Phone (R) : 0755-4051553
+</b></pre>
+<img src="Teachers/Dr.AmitBhagat.jpg" height="100px" width="100px">
+<pre><b>   
+Dr. Amit Bhagat
+Designation: Assistant Professor
+Qualification: MCA, PhD
+Research Area: Object Oriented Analysis and Design.
+Email: am.bhagat@gmail.com
+Phone: (Off): 0755-2670417 Ext 1455
+</b></pre>
+<img src="Teachers/Dr.GST.jpg" height="100px" width="100px">
+<pre><b>   
+Dr. Ghanshyam Singh Thakur
+Designation: Assistant Professor
+Qualification: MCA PhD
+Research Area: Data Mining
+Email:ghanshymthskur@gmail.com
+Phone: 9584479833
+</b></pre>
+</div>
+<div class="teach2"><img src="Teachers/dr.SanjaySharma.jpg" height="100px" width="100px">
+<pre><b>   
+Dr. Sanjay Sharma
+Designation: Professor
+Qualification: MCA, PhD
+Research Area: Computer Networks,Big Data Analytics
+Email:sharmasanjay@manit.ac.in,ssharma66@rediffmail.com
+hodmca@manit.ac.in
+Phone: 0755-2670417 Ext. 1452 
+</b></pre>
+<img src="Teachers/dr.SujoyDas.jpg" height="100px" width="100px">
+<pre><b>   
+Dr. Sujoy Das
+Designation: Professor
+Qualification:MCA PhD
+Research Area:  Information Retrieval Object Oriented Analysis & Design
+Email: sujoydas@manitac.in, d_sujoy@hotmail.com
+Phone:  0755-2670417 Ext. 1453
+</b></pre>
+<img src="Teachers/" height="100px" width="100px">
+<pre><b>   
+Dr. R. Vishnu Priya
+Designation: Assistant Professor
+Qualification: Ph.D.( NIT Trichy), MCA.(College of Engineering Gunidy, Anna University Chennai Main Campus )
+Research Area:Cognitive Science, Text Mining, Data Science and Analytics, Big Data, Web Mining
+Email: vissaru@yahoo.co.in
+</b></pre>
+<img src="Teachers/Manoj_jha.jpg" height="100px" width="100px">
+<pre><b> 
+Dr.Manoj Jha
+Designation: Assit. Professor
+Qualification : M.Sc., M. Phil, SLET, Ph.D
+Specialization: Portfolio Optimization 
+Phone No.: (Resi) : 0755-2686105 (Off): 1557 
+E-mail: m_jha28@rediffmail.com
+</b></pre>
+</div>
+</div>
+</div>
+<footer><b>Copyright@MANIT Self Help Desk<br/>Mr. Manoj Loul-202120027<br/>Mr. Abishekh Jha-202120042<br/>Ms. Pari Jain-202120124</b></footer>
+</body>
+</html>
